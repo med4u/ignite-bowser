@@ -89,7 +89,6 @@ async function install(context) {
     { template: '.prettierignore', target: '.prettierignore' },
     { template: '.solidarity', target: '.solidarity' },
     { template: 'tsconfig.json', target: 'tsconfig.json' },
-    { template: 'tslint.json', target: 'tslint.json' },
     { template: 'app/app.tsx.ejs', target: 'app/app.tsx' }
   ]
   const templateProps = {
